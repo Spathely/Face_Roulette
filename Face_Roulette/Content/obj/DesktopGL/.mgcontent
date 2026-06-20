@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bg.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bscore.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bscoreF.spritefont</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g1.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g10.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g11.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g12.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g2.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g3.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g4.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g5.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g6.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g7.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g8.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g9.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/face.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b1.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b2.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b3.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b4.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b5.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b6.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b7.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/noses/b8.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/score.png</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/scoreF.spritefont</File>
+    <File>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/title.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
