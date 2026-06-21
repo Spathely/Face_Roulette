@@ -7,11 +7,6 @@ class Level
 {
     public Random random = new Random();
     public Texture2D currentEye, currentNose, currentMouth;
-    Items items;
-    public void LevelManage()
-    {
-
-    }
     public void CreateFace(Dictionary<int, Texture2D> eyes, Dictionary<int, Texture2D> noses, Dictionary<int, Texture2D> mouths)
     {
 

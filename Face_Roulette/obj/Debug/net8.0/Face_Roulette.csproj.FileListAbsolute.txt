@@ -58,3 +58,4 @@ c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\refint\Face_Rou
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\Face_Roulette.pdb
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\Face_Roulette.genruntimeconfig.cache
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\ref\Face_Roulette.dll
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\button.xnb
