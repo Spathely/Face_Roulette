@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
+
 public class Items : Sprite
 {
     public Dictionary<int, Texture2D> eyes = new Dictionary<int, Texture2D>();
@@ -21,4 +22,15 @@ public class Items : Sprite
         }
     }
   
+}
+public class Sprite
+{
+    public Texture2D texture;
+    public Vector2 position;
+
+    public Sprite(Texture2D tex,Vector2 pos)
+    {
+        texture= tex;
+        position=pos;
+    }
 }

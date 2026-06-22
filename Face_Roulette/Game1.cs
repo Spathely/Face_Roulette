@@ -43,9 +43,7 @@ public class Game1 : Game
         bg = Content.Load<Texture2D>("bg");
         scene.LoadScenes(Content);
         
-        items.LoadItems(Content);
         
-        level.CreateFace(items.eyes, items.noses, items.mouths);
         // TODO: use this.Content to load your game content here
     }
 
@@ -65,6 +63,7 @@ public class Game1 : Game
         GraphicsDevice.Clear(Color.CornflowerBlue);
         _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
         _spriteBatch.Draw(bg, new Rectangle(0, 0, 1600, 960), Color.White);
+        
         scene.Draw(_spriteBatch);
 
         _spriteBatch.End();

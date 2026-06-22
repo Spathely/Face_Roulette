@@ -7,7 +7,10 @@ public class InGame : IScene
 {
     public Texture2D head; // head original size 250x250
     public  Texture2D bscore, score;
-    public  SpriteFont scoref, bscoref;
+    public  SpriteFont scoref, bscoref,count;
+    Level level;
+    Items items;
+    private bool isNewLvl=false;
     public void LoadUIs(ContentManager Content)
     {
         head = Content.Load<Texture2D>("face");
@@ -15,11 +18,22 @@ public class InGame : IScene
         bscore = Content.Load<Texture2D>("bscore");
         scoref = Content.Load<SpriteFont>("scoreF");
         bscoref = Content.Load<SpriteFont>("bscoreF");
+        count= Content.Load<SpriteFont>("count");
+        
+        level= new Level();
+        items= new Items(null,Vector2.Zero);
+        
+        items.LoadItems(Content);
+        level.CreateFace(items.eyes, items.noses, items.mouths);
+        isNewLvl=true;
     }
 
     public void Update(GameTime gameTime)
     {
-        
+        if(isNewLvl)
+        {
+            level.GameTour(gameTime);
+        }
     }
 
      public void DrawScreen(SpriteBatch spriteBatch) //main screen original size 480x800
@@ -30,5 +44,10 @@ public class InGame : IScene
         spriteBatch.DrawString(scoref, "0000", new Vector2(725, 25), Color.White);
         spriteBatch.DrawString(bscoref, "0010", new Vector2(1420, 80), Color.White);
         spriteBatch.DrawString(bscoref, "BEST", new Vector2(1410, 10), Color.Crimson);
+       if(isNewLvl)
+        {
+            level.DrawFace(spriteBatch,count);
+        }
+        
     }
 }
