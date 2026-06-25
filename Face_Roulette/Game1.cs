@@ -11,7 +11,7 @@ public class Game1 : Game
     Texture2D texture,bg,button;
     Vector2 position;
     Items items;
-    Level level;
+    Face face;
     Scene scene;
 
 
@@ -29,7 +29,7 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
-        level = new Level();
+        face= new Face();
         items = new Items(texture, position);
         scene= new Scene();
         

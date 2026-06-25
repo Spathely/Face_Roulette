@@ -61,3 +61,11 @@ c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\ref\Face_Roulet
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\button.xnb
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\obj\Debug\net8.0\Face_Roulette.sourcelink.json
 c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\count.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a1.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a2.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a3.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a4.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a5.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a6.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a7.xnb
+c:\Users\HP\Desktop\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\mouths\a8.xnb

@@ -8,9 +8,11 @@ public class InGame : IScene
     public Texture2D head; // head original size 250x250
     public  Texture2D bscore, score;
     public  SpriteFont scoref, bscoref,count;
-    Level level;
+    Face face;
     Items items;
+    ItemMovement itemMove;
     private bool isNewLvl=false;
+    private MouseState laststate;
     public void LoadUIs(ContentManager Content)
     {
         head = Content.Load<Texture2D>("face");
@@ -20,23 +22,81 @@ public class InGame : IScene
         bscoref = Content.Load<SpriteFont>("bscoreF");
         count= Content.Load<SpriteFont>("count");
         
-        level= new Level();
+        face= new Face();
         items= new Items(null,Vector2.Zero);
         
         items.LoadItems(Content);
-        level.CreateFace(items.eyes, items.noses, items.mouths);
+        face.CreateFace(items.eyes, items.noses, items.mouths);
+        itemMove=face.itemM;
+
         isNewLvl=true;
+        laststate=Mouse.GetState();
     }
 
     public void Update(GameTime gameTime)
     {
-        if(isNewLvl)
+        if(isNewLvl && face != null)
         {
-            level.GameTour(gameTime);
+            face.GameTour(gameTime);
+            if(itemMove!=null &&face.time>=(face.display+face.fadetime))
+            {
+                CheckClicked();
+            }
         }
     }
 
-     public void DrawScreen(SpriteBatch spriteBatch) //main screen original size 480x800
+    public void CheckClicked()
+    {
+        MouseState mouse= Mouse.GetState();
+        if(mouse.LeftButton== ButtonState.Pressed && laststate.LeftButton==ButtonState.Released)
+        {
+            switch(itemMove.stage)
+            {
+                case 0: if(LockItem(itemMove.Currenteyes,itemMove.eyeways))
+                    {}break;
+                case 1:if(LockItem(itemMove.Currentnoses,itemMove.noseways))
+                    {}break;
+                 case 2:if(LockItem(itemMove.Currentmouths,itemMove.mouthways))
+                    {}break;
+            }
+            
+        }
+        laststate=mouse;
+    }
+
+    private bool LockItem(Moving[] movingitem,Vector2[] ways)
+    {
+        int selecteditem= -1; //nothing selected
+        
+        for(int i=0; i<4; i++)
+        {
+            if(movingitem[i].isonScreen && movingitem[i].targetway==2) // if it is go to target pos
+            {
+                selecteditem=i;
+                break;
+            }
+        }
+        if(selecteditem!=-1)
+        {
+            for (int i=0; i<4;i++)
+            {
+                if(i==selecteditem)
+                {
+                    movingitem[i].currentscale=1.0f; //turning normal scale
+                    movingitem[i].isselected=true;
+                }
+                else
+                {
+                    movingitem[i].isonScreen=false;
+                }
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+     public void DrawScreen(SpriteBatch spriteBatch) //main screen 1600x960
     {
         spriteBatch.Draw(head, new Rectangle(400, 160, 800, 800), Color.White);
         spriteBatch.Draw(score, new Rectangle(675, 0, 250, 100), Color.White);
@@ -44,9 +104,17 @@ public class InGame : IScene
         spriteBatch.DrawString(scoref, "0000", new Vector2(725, 25), Color.White);
         spriteBatch.DrawString(bscoref, "0010", new Vector2(1420, 80), Color.White);
         spriteBatch.DrawString(bscoref, "BEST", new Vector2(1410, 10), Color.Crimson);
-       if(isNewLvl)
+       if(isNewLvl && face!=null && face.itemM != null)
         {
-            level.DrawFace(spriteBatch,count);
+            if(face.time <(face.display + face.fadetime)) 
+            {
+                face.DrawFace(spriteBatch,count);
+            }
+            else // show items after face showned
+            {
+                itemMove.DrawItems(spriteBatch);
+            }
+            
         }
         
     }
