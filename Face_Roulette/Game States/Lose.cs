@@ -10,7 +10,8 @@ public class Lose : IScene //same with menu class
     public Rectangle buttonSize;
     public Color buttoncolor;
     public SpriteFont title, buttonF;
-     Scene Scene;
+    public bool ispressed= false;
+    Scene Scene;
     MouseState lastmouseState;
     ContentManager Content;
     
@@ -18,7 +19,7 @@ public class Lose : IScene //same with menu class
     {
          Scene = scene;
         this.button = button;
-        buttonSize = new Rectangle(635, 480, 330, 100); 
+        buttonSize = new Rectangle(600, 480, 410, 100); 
     }
     public void LoadMenu(ContentManager Content)
     {
@@ -30,9 +31,28 @@ public class Lose : IScene //same with menu class
     {
          MouseState currentMouse = Mouse.GetState();
         Point mousePos = currentMouse.Position; // think mouse is point
-        buttoncolor = Color.White;
+        buttoncolor = Color.LightSkyBlue;
+       
         if (buttonSize.Contains(mousePos)) // check mouse pos 
         {
+            if(currentMouse.LeftButton==ButtonState.Pressed && lastmouseState.LeftButton== ButtonState.Released)
+            {
+                 ispressed= true;
+            }
+            if(ispressed && currentMouse.LeftButton==ButtonState.Pressed)
+            {
+                buttoncolor = Color.Gray; //when pressed - darker color
+            }
+            else if(!ispressed)
+            {
+                buttoncolor= Color.GhostWhite; // not pressed but on the button- lighter color
+            }
+
+            if (currentMouse.LeftButton == ButtonState.Released && ispressed)
+            {
+                ispressed=false;
+                Scene.ChangeState("game");
+            }
             
 
         }
@@ -42,7 +62,7 @@ public class Lose : IScene //same with menu class
      public void DrawScreen(SpriteBatch spriteBatch)//use old textures
     {
         spriteBatch.DrawString(title, "YOU LOSE!", new Vector2(560, 240), Color.Red);
-        spriteBatch.Draw(button, new Rectangle(635, 480, 330, 100), Color.White); //same visual dont need to add new one
-        spriteBatch.DrawString(buttonF, "PLAY AGAIN", new Vector2(643, 510), Color.White);
+        spriteBatch.Draw(button,buttonSize,buttoncolor); //same visual dont need to add new one
+        spriteBatch.DrawString(buttonF, "PLAY AGAIN", new Vector2(612, 510), Color.White);
     }
 }

@@ -21,7 +21,7 @@ public class Scene
     {
        this.Content= Content;
         Menu menu = new Menu(this, null);
-        InGame game = new InGame();
+        InGame game = new InGame(this);
         Lose lose = new Lose(this, null);
 
         scenes.Add("menu", menu);

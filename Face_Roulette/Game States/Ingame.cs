@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -8,11 +9,19 @@ public class InGame : IScene
     public Texture2D head; // head original size 250x250
     public  Texture2D bscore, score;
     public  SpriteFont scoref, bscoref,count;
+    public int currentscore=0;
+    private List<int> scores= new List<int>(){0};
     Face face;
     Items items;
+    private Scene scene;
     ItemMovement itemMove;
     private bool isNewLvl=false;
     private MouseState laststate;
+    
+    public InGame(Scene currentScene)
+    {
+        this.scene = currentScene;
+    }
     public void LoadUIs(ContentManager Content)
     {
         head = Content.Load<Texture2D>("face");
@@ -32,6 +41,28 @@ public class InGame : IScene
         isNewLvl=true;
         laststate=Mouse.GetState();
     }
+    public void NewLevel()
+    {
+        if(face.CheckFace())
+        {
+            currentscore++;
+            if(currentscore>scores.Max())
+            {
+               scores.Add(currentscore); 
+            }
+            itemMove.Reset();
+            if(items != null)
+            {
+               face.CreateFace(items.eyes,items.noses,items.mouths);  
+            }
+           
+        }
+        else
+        {
+            currentscore=0;
+            scene.ChangeState("lose");
+        }
+    }
 
     public void Update(GameTime gameTime)
     {
@@ -40,7 +71,15 @@ public class InGame : IScene
             face.GameTour(gameTime);
             if(itemMove!=null &&face.time>=(face.display+face.fadetime))
             {
-                CheckClicked();
+                if(itemMove.stage<3)
+                {
+                   CheckClicked();
+                }
+                
+                if(itemMove.stage==3)
+                {
+                    NewLevel();
+                }
             }
         }
     }
@@ -101,8 +140,9 @@ public class InGame : IScene
         spriteBatch.Draw(head, new Rectangle(400, 160, 800, 800), Color.White);
         spriteBatch.Draw(score, new Rectangle(675, 0, 250, 100), Color.White);
         spriteBatch.Draw(bscore, new Rectangle(1350, 0, 250, 150), Color.White);
-        spriteBatch.DrawString(scoref, "0000", new Vector2(725, 25), Color.White);
-        spriteBatch.DrawString(bscoref, "0010", new Vector2(1420, 80), Color.White);
+        spriteBatch.DrawString(scoref, currentscore.ToString("D4"), new Vector2(725, 25), Color.White);
+        int bestscore=scores[^1];
+        spriteBatch.DrawString(bscoref, bestscore.ToString("D4"), new Vector2(1420, 80), Color.White);
         spriteBatch.DrawString(bscoref, "BEST", new Vector2(1410, 10), Color.Crimson);
        if(isNewLvl && face!=null && face.itemM != null)
         {

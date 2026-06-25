@@ -7,6 +7,7 @@ public class Face
 {
     Items item= new Items(null,Vector2.Zero);
     public ItemMovement itemM;
+    public Scene scene;
     public Random random = new Random();
     public float display = 3.0f; // time of face showing
     public float faceopacity = 1.0f,eyeopacity= 1.0f,noseopacity= 1.0f,mouthopacity=1.0f;
@@ -119,8 +120,51 @@ public class Face
         }
        
     }
-    public void CheckFace()
+    public bool CheckFace()
     {
+        Texture2D selectedE= null;Texture2D selectedN= null;Texture2D selectedM= null;
+        List<Texture2D> eyeT = new List<Texture2D>();
+        foreach (var eye in choseneyes)
+        {
+            if (eye.Value != null)
+            { eyeT.Add(eye.Value); }
+        }
+        List<Texture2D> noseT = new List<Texture2D>();
+        foreach (var nose in chosennoses)
+        {
+            if (nose.Value != null)
+            { noseT.Add(nose.Value); }
+        }
+        List<Texture2D> mouthT = new List<Texture2D>();
+        foreach (var mouth in chosenmouths)
+        {
+            if (mouth.Value != null)
+            { mouthT.Add(mouth.Value); }
+        }
+
+        for(int i=0;i<eyeT.Count; i++)
+        {
+            if(i<4 && itemM.Currenteyes[i].isselected)
+            {
+                selectedE= eyeT[i];
+            }
+        }
+        for(int i=0;i<noseT.Count; i++)
+        {
+            if(i<4 && itemM.Currentnoses[i].isselected)
+            {
+                selectedN= noseT[i];
+            }
+        }
+        for(int i=0;i<mouthT.Count; i++)
+        {
+            if(i<4 && itemM.Currentmouths[i].isselected)
+            {
+                selectedM= mouthT[i];
+            }
+        }
+
+        return(selectedE==targetEye && selectedN==targetNose && selectedM==targetMouth);
         
     }
    

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Face_Roulette")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66d66c6d17e94ee6d13a25c62dd6f136a18753e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78859a2b4afc7ecb5115e39193f0ccb8170eca29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Face_Roulette")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Face_Roulette")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
