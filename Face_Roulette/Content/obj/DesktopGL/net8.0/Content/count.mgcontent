@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/count.spritefont</SourceFile>
-  <SourceTime>2026-06-23T00:46:13.0638394+03:00</SourceTime>
-  <DestFile>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bin/DesktopGL/Content/count.xnb</DestFile>
-  <DestTime>2026-06-23T00:46:15.0995223+03:00</DestTime>
+  <SourceFile>C:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/count.spritefont</SourceFile>
+  <SourceTime>2026-06-26T05:17:03.2997763+03:00</SourceTime>
+  <DestFile>C:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bin/DesktopGL/Content/count.xnb</DestFile>
+  <DestTime>2026-06-26T05:22:11.6036267+03:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2025-06-02T13:31:02+03:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

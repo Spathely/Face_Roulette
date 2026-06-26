@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AttpZzQgfTs=",
+  "dgSpecHash": "omhvnIrk9uo=",
   "success": true,
-  "projectFilePath": "c:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\monogame.content.builder.task.3.8.4.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.4.1\\monogame.framework.desktopgl.3.8.4.1.nupkg.sha512",

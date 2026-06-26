@@ -14,7 +14,7 @@ public class Menu : IScene
 
     Scene Scene;
     MouseState lastmouseState;
-    ContentManager Content;
+    
 
     public Menu(Scene scene, Texture2D button)
     {

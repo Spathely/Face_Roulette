@@ -8,8 +8,7 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-    Texture2D texture,bg,button;
-    Vector2 position;
+    Texture2D bg;
     Items items;
     Face face;
     Scene scene;
@@ -30,7 +29,7 @@ public class Game1 : Game
     {
         // TODO: Add your initialization logic here
         face= new Face();
-        items = new Items(texture, position);
+        items = new Items(null,Vector2.Zero);
         scene= new Scene();
         
 

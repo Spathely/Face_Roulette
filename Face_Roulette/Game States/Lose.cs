@@ -13,7 +13,7 @@ public class Lose : IScene //same with menu class
     public bool ispressed= false;
     Scene Scene;
     MouseState lastmouseState;
-    ContentManager Content;
+    
     
     public Lose(Scene scene,Texture2D button)
     {
