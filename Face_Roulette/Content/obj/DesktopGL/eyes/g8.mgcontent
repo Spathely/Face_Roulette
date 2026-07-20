@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/eyes/g8.png</SourceFile>
+  <SourceFile>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g8.png</SourceFile>
   <SourceTime>2026-06-19T16:19:39.553397+03:00</SourceTime>
-  <DestFile>c:/Users/HP/Desktop/Face_Roulette/Face_Roulette/Content/bin/DesktopGL/eyes/g8.xnb</DestFile>
-  <DestTime>2026-06-26T05:09:56.9911819+03:00</DestTime>
+  <DestFile>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bin/DesktopGL/eyes/g8.xnb</DestFile>
+  <DestTime>2026-07-20T11:49:21.656055+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T13:31:02+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

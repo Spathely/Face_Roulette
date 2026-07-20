@@ -19,7 +19,7 @@ public class Face
                                       chosenmouths = new Dictionary<int, Texture2D>();
                 
   
-    public float turntime=0f, turnDuration= 3.0f; 
+    
 
     public Face()
     {
@@ -112,7 +112,7 @@ public class Face
         }
         if (time >= display)
         {
-            faceopacity -= (float)gameTime.ElapsedGameTime.TotalSeconds / fadetime;
+            faceopacity -= (float)gameTime.ElapsedGameTime.TotalSeconds / fadetime; //divide
             if (faceopacity < 0.0f)
             {
                 faceopacity = 0.0f;
@@ -142,7 +142,7 @@ public class Face
             { mouthT.Add(mouth.Value); }
         }
 
-        for(int i=0;i<eyeT.Count; i++)
+        for(int i=0;i<eyeT.Count; i++) //i= array index
         {
             if(i<4 && itemM.Currenteyes[i].isselected)
             {

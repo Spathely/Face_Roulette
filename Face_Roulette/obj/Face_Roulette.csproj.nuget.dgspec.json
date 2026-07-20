@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {}
+    "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {
+    "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
         "projectName": "Face_Roulette",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
+        "projectPath": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Face_Roulette\\Face_Roulette\\obj\\",
+        "outputPath": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

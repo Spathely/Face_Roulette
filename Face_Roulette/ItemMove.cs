@@ -92,7 +92,7 @@ public class ItemMovement
             case 0: ItemMove(Currenteyes, eyeways, time); break;
             case 1: ItemMove(Currentnoses, noseways, time); break;
             case 2: ItemMove(Currentmouths, mouthways, time); break;
-                //case3 levelcheck()
+                
         }
     }
     public void ItemMove(Moving[] movingitems, Vector2[] ways, float time)// itemlerin dönmesi
@@ -172,7 +172,7 @@ public class ItemMovement
                 {
                     if (movingitems[i].pos.X < waypoint.X) //move right
                     {
-                        movingitems[i].pos.X += speed * time;
+                        movingitems[i].pos.X += speed * time; //x= V.t
                     }
                     else if (movingitems[i].pos.X > waypoint.X) // move left
                     {

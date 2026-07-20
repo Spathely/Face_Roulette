@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace Face_Roulette;
 
@@ -12,6 +13,7 @@ public class Game1 : Game
     Items items;
     Face face;
     Scene scene;
+    Song song;
 
 
 
@@ -41,6 +43,8 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         bg = Content.Load<Texture2D>("bg");
         scene.LoadScenes(Content);
+        song= Content.Load<Song>("Audio/mainsong");
+        MediaPlayer.Play(song);
         
         
         // TODO: use this.Content to load your game content here

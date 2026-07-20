@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -17,6 +18,7 @@ public class InGame : IScene
     ItemMovement itemMove;
     private bool isNewLvl=false;
     private MouseState laststate;
+    SoundEffect effect; 
     
     public InGame(Scene currentScene)
     {
@@ -30,6 +32,7 @@ public class InGame : IScene
         scoref = Content.Load<SpriteFont>("scoreF");
         bscoref = Content.Load<SpriteFont>("bscoreF");
         count= Content.Load<SpriteFont>("count");
+        effect=Content.Load<SoundEffect>("Audio/click");
         
         face= new Face();
         items= new Items(null,Vector2.Zero);
@@ -89,6 +92,7 @@ public class InGame : IScene
         MouseState mouse= Mouse.GetState();
         if(mouse.LeftButton== ButtonState.Pressed && laststate.LeftButton==ButtonState.Released)
         {
+            effect.Play();
             switch(itemMove.stage)
             {
                 case 0: if(LockItem(itemMove.Currenteyes,itemMove.eyeways))
