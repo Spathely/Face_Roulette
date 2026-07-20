@@ -4,46 +4,48 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/click.mp3</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/mainsong.mp3</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bg.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bscore.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bscoreF.spritefont</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/button.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/count.spritefont</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g1.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g10.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g11.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g12.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g2.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g3.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g4.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g5.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g6.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g7.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g8.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g9.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/face.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a1.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a2.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a3.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a4.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a5.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a6.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a7.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a8.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b1.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b2.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b3.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b4.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b5.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b6.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b7.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b8.png</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/scoreF.spritefont</File>
-    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/title.spritefont</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/click.mp3</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/correct.mp3</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/mainsong.mp3</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bg.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bscore.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bscoreF.spritefont</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/button.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/count.spritefont</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g1.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g10.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g11.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g12.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g2.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g3.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g4.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g5.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g6.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g7.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g8.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/eyes/g9.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/face.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a1.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a2.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a3.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a4.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a5.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a6.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a7.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/mouths/a8.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b1.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b2.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b3.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b4.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b5.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b6.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b7.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/noses/b8.png</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/scoreF.spritefont</File>
+    <File>C:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/title.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -44,7 +44,9 @@ public class Game1 : Game
         bg = Content.Load<Texture2D>("bg");
         scene.LoadScenes(Content);
         song= Content.Load<Song>("Audio/mainsong");
+        MediaPlayer.IsRepeating=true;
         MediaPlayer.Play(song);
+        
         
         
         // TODO: use this.Content to load your game content here

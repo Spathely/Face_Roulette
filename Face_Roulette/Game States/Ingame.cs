@@ -18,7 +18,7 @@ public class InGame : IScene
     ItemMovement itemMove;
     private bool isNewLvl=false;
     private MouseState laststate;
-    SoundEffect effect; 
+    SoundEffect click,correct; 
     
     public InGame(Scene currentScene)
     {
@@ -32,7 +32,8 @@ public class InGame : IScene
         scoref = Content.Load<SpriteFont>("scoreF");
         bscoref = Content.Load<SpriteFont>("bscoreF");
         count= Content.Load<SpriteFont>("count");
-        effect=Content.Load<SoundEffect>("Audio/click");
+        click=Content.Load<SoundEffect>("Audio/click");
+        correct=Content.Load<SoundEffect>("Audio/correct");
         
         face= new Face();
         items= new Items(null,Vector2.Zero);
@@ -48,6 +49,7 @@ public class InGame : IScene
     {
         if(face.CheckFace())
         {
+            correct.Play();
             currentscore++;
             if(currentscore>scores.Max())
             {
@@ -92,7 +94,7 @@ public class InGame : IScene
         MouseState mouse= Mouse.GetState();
         if(mouse.LeftButton== ButtonState.Pressed && laststate.LeftButton==ButtonState.Released)
         {
-            effect.Play();
+            click.Play();
             switch(itemMove.stage)
             {
                 case 0: if(LockItem(itemMove.Currenteyes,itemMove.eyeways))

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {}
+    "C:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {
+    "C:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
         "projectName": "Face_Roulette",
-        "projectPath": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\Face_Roulette.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\tüm\\DGD Semesters\\2. Sınıf\\2nd Semester\\Game Programming 2\\Makeup\\Face_Roulette\\Face_Roulette\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,12 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.27, )",
+              "autoReferenced": true
+            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.*, )"
@@ -72,6 +78,10 @@
               "version": "[8.0.27, 8.0.27]"
             },
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.27, 8.0.27]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[8.0.27, 8.0.27]"
             },
@@ -80,7 +90,15 @@
               "version": "[8.0.27, 8.0.27]"
             },
             {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.27, 8.0.27]"
+            },
+            {
               "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.27, 8.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
               "version": "[8.0.27, 8.0.27]"
             }
           ],
@@ -90,6 +108,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

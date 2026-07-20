@@ -5,6 +5,7 @@
   <Config />
   <SourceFiles>
     <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/click.mp3</File>
+    <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/correct.mp3</File>
     <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/Audio/mainsong.mp3</File>
     <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bg.png</File>
     <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/bscore.png</File>
@@ -44,6 +45,7 @@
     <File>c:/Users/HP/Desktop/tüm/DGD Semesters/2. Sınıf/2nd Semester/Game Programming 2/Makeup/Face_Roulette/Face_Roulette/Content/title.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

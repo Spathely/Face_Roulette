@@ -146,3 +146,4 @@ c:\Users\HP\Desktop\tüm\DGD Semesters\2. Sınıf\2nd Semester\Game Programming 
 c:\Users\HP\Desktop\tüm\DGD Semesters\2. Sınıf\2nd Semester\Game Programming 2\Makeup\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\Audio\mainsong.ogg
 c:\Users\HP\Desktop\tüm\DGD Semesters\2. Sınıf\2nd Semester\Game Programming 2\Makeup\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\Audio\mainsong.xnb
 c:\Users\HP\Desktop\tüm\DGD Semesters\2. Sınıf\2nd Semester\Game Programming 2\Makeup\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\Audio\click.xnb
+c:\Users\HP\Desktop\tüm\DGD Semesters\2. Sınıf\2nd Semester\Game Programming 2\Makeup\Face_Roulette\Face_Roulette\bin\Debug\net8.0\Content\Audio\correct.xnb
